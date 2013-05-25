@@ -11,9 +11,9 @@
 
    <!--  <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
  
-    <link href="presentationSite/css/impress-demo.css" rel="stylesheet" />
-    <link href="presentationSite/css/impress-progress.css" rel="stylesheet" />
-    <link href="presentationSite/css/custom.css" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/impress-progress.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -31,9 +31,11 @@
 
     <div id="Inicio" class="step center" data-x="-2550" data-y="-2200" data-rotate="-90" data-scale="1" data-z="-2000">
         <q>
-            Desenvolvendo jogos usando tecnologia HTML5 e NodeJS para o Facebook
+            <strong>Projeto Zomba</strong>    
             <hr/>              
-            <strong>Projeto Zomba</strong>          
+            Desenvolvendo jogos usando tecnologia HTML5 e NodeJS para o Facebook
+            
+                  
         </q>
     </div>
    
@@ -72,11 +74,11 @@
         Para fazermos a comunicação e estabelecer conexões de "soquete" entre um navegador da web e um servidor usaremos a API do HTML5 chamada WebSocket. Em outras palavras, é utilizado para estabelecer uma conexão persistente entre o cliente (jogador) e o servidor, onde ambas as partes podem trocar dados a qualquer momento.
     </div>
 
-    <div id="" class="step text justify" data-x="2400" data-y="-1400" data-z="-400">
-        Para o jogo ser visualizado no navegador, utilizamos a API do HTML5 chamada Canvas, que torna possível a renderização do jogo em tempo real. E para tornar a experiência de jogo mais envolvente, utilizamos outra API do HTML5 chamada WebAudio, que permite o uso e uma grande capacidade de manipulação de sons no navegador.
+    <div id="Renderizacao" class="step text justify" data-x="2400" data-y="-1400" data-z="-400">
+        Para o jogo ser visualizado no navegador utilizamos a API do HTML5 chamada Canvas, que torna possível a renderização do jogo em tempo real. E para tornar a experiência de jogo mais envolvente, utilizamos outra API do HTML5 chamada WebAudio, que permite o uso e uma grande capacidade de manipulação de sons no navegador.
     </div>
 
-    <div id="" class="step text justify" data-x="1600" data-y="-1500" data-z="0" data-rotate="-90">
+    <div id="Final" class="step text justify" data-x="1600" data-y="-1500" data-z="0" data-rotate="-90">
         Agradecemos a todos os professores pela conclusão desse projeto que é o resultado do esforço de síntese para por em prática os conhecimentos adquiridos ao longo do curso Ciência da Computação. 
     </div>
 
@@ -221,12 +223,9 @@ if ("ontouchstart" in document.documentElement) {
     Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
     
 -->
-<script src="presentationSite/js/impress.js"></script>
-<script src="presentationSite/js/impress-progress.js"></script>
+<script src="js/impress.js"></script>
+<script src="js/impress-progress.js"></script>
 <script>impress().init();</script>
-<script src="presentationSite/js/jquery.js"></script>
-<script type="text/javascript"> 
-</script>
 
 
 <!--
