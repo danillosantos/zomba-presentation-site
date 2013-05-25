@@ -1,0 +1,20 @@
+.center{
+	text-align: center;
+}
+.justify{
+	text-align: justify;
+}
+.text{
+	font-size: 40px;
+}
+
+.zomba-printscreen{
+	background-image:url(../img/zomba-printscreen.png);
+	background-repeat: no-repeat;
+	background-position: 0px 80px;
+	height: 700px;
+}
+
+.hide{
+	display: none;
+}
